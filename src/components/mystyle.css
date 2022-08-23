@@ -1,0 +1,30 @@
+.BadgeCart {
+  cursor: pointer;
+}
+.cart_wrapper {
+  padding: 10px;
+}
+img.card-img-top {
+  height: 180px;
+  object-fit: contain;
+}
+h5,
+p {
+  margin: 0;
+}
+.productDetailsImgSize {
+  height: 100px;
+}
+.input_quantity {
+  width: 100%;
+  max-width: 120px;
+}
+img.cartPopoverModelImg {
+    width: 100%;
+    max-width: 150px;
+    height: 110px;
+    object-fit: contain;
+}
+.smallDataMargin p{
+    margin: 6px 0;
+}
