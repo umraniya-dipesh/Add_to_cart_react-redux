@@ -38,7 +38,7 @@ const CardProduct = () => {
                   <Card.Body>
                     <Card.Title>{p_name}</Card.Title>
                     <Card.Text>{desc}</Card.Text>
-                    <Card.Text>RS: {price}</Card.Text>
+                    <Card.Text className="my-3">RS: {price}</Card.Text>
                     <Button
                       variant="primary"
                       onClick={() =>

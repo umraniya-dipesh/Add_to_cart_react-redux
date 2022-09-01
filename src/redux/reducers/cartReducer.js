@@ -14,7 +14,7 @@ const cartReducer = (state = initialState, action) => {
         const addPrdq = { ...action.payload, quantity: 1 };
         return {
           ...state,
-          cart: [...state.cart, addPrdq],
+          cart: [...state.cart, addPrdq], 
         };
       }
 
